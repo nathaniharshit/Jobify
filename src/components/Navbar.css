@@ -1,0 +1,104 @@
+/* Navbar.css */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background-color: #283593;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100vw;
+}
+
+.logo {
+  font-size: 2rem;
+  color: #f3e5f5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0 20px;
+}
+
+.nav-link {
+  color: #c5cae9;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #e8eaf6;
+  transform: scale(1.1);
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+}
+
+.my-jobs {
+  color: #c5cae9;
+  text-decoration: none;
+  margin-right: 25px;
+  font-size: 1.1rem;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.my-jobs:hover {
+  color: #e8eaf6;
+  transform: scale(1.1);
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-name {
+  margin-right: 15px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.logout {
+  background-color: #3949ab;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.logout:hover {
+  background-color: #5c6bc0;
+  transform: scale(1.1);
+}
+
+.login,
+.signup {
+  color: #c5cae9;
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 1.1rem;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.login:hover,
+.signup:hover {
+  color: #e8eaf6;
+  transform: scale(1.1);
+}

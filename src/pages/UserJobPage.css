@@ -1,0 +1,31 @@
+/* Remove padding and margin from the main section */
+
+.bg-blue-50 {
+    background-color: #ebf8ff;
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    width: 100vw;
+}
+
+/* Ensure the container takes the full width and height */
+.container-xl, .lg\:container {
+    max-width: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* Additional styles to ensure proper layout */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

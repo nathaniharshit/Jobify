@@ -1,0 +1,48 @@
+.job-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width:30vw;
+    margin: 20px;
+    transition: transform 0.2s;
+  }
+  
+  .job-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .job-title {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .job-location, .job-salary, .job-type {
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .job-description {
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .view-more-btn {
+    background-color: #5a67d8;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .view-more-btn:hover {
+    background-color: #434190;
+  }
+  

@@ -1,0 +1,108 @@
+/* SpecialListing.css */
+.job-listings-container {
+  margin-top: 50px; /* Adds margin-top to the container holding job cards */
+}
+
+.job-card {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: transform 0.2s;
+  overflow-x: hidden;
+
+}
+
+
+
+.job-card:hover {
+  transform: scale(1.02);
+}
+
+.job-card h3 {
+  font-size: 1.8rem;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.job-card p {
+  color: #666666;
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+
+.job-card button {
+  background-color: #4a90e2;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.job-card button:hover {
+  transform: scale(1.05);
+}
+
+.job-card .applicants-list {
+  margin-top: 20px;
+}
+
+.job-card .applicants-list h4 {
+  margin-bottom: 10px;
+  color: #333333;
+  font-size: 1.2rem;
+}
+
+.job-card .applicants-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.job-card .applicants-list ul li {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-card .applicants-list ul li span {
+  font-weight: bold;
+  color: #333333;
+}
+
+.job-card .applicants-list ul li button {
+  background-color: #008CBA;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.job-card .applicants-list ul li button:hover {
+  background-color: #007BB5;
+  transform: scale(1.05);
+}
+
+/* Additional styling for better visual appeal */
+.job-card h3,
+.job-card h4 {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+
+.job-card p {
+  font-family: 'Arial', sans-serif;
+}
+
+.job-card button {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
